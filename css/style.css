@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative; 
+
+}
+
+/* styling all over the page  */
+main div{
+  margin: 30px;
+}
+
+img{
+  display: flex;
+  height: 50vh;
+  width: 60vh;
+ 
+}
+/* banner styling */
+.mask{
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+}
+
+.bg-image{
+  background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+  height: 400px;
+  margin-top: 58px;
+}
+/* about me section styling */
+.page-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.main-img{
+  height: 70vh;
+  width: 90vh;
+}
+.about-me{
+  display: flex;
+  border: 3px solid coral;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.about-me img{
+  display: flex;
+  height: 30vh;
+  width: 30vh;
+}
+
+/* styling for work section */
+.work-portfolio{
+  display: flex;
+  flex-direction: inline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.page-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* styling for contact section */
+#contact{
+ 
+  justify-content: space-between;
+  margin: 0;
+  color: bisque;
+}
+
+.contact a{
+ margin: 10px;
+ color: bisque;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+ body{
+  width: 100%;
+ }
+
+}
