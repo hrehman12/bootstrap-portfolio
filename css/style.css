@@ -68,6 +68,10 @@ img{
   flex-wrap: wrap;
 
 }
+.portfolio{
+  display: flex;
+  justify-content: center;
+}
 .page-section{
   display: flex;
   flex-direction: column;
