@@ -14,11 +14,11 @@
 * Added a footer section.
 * All hyperlinks have  hover effect.
  
- [Website image](./images/Screenshot1.png)
+ ![Website image](./images/Screenshot1.png)
 
- [Website image](./images/Screenshot2.png)
+ ![Website image](./images/Screenshot2.png)
 
- [Website image](./images/Screenshot3.png)
+ ![Website image](./images/Screenshot3.png)
 
  Link to [Github](https://github.com/hrehman12/bootstrap-portfolio)
  
